@@ -30,7 +30,7 @@ public class Fibbonaci
         foreach (var test in tests) test.RunTest();
     }
 
-    public static int Solve(int n)
+    private static int Solve(int n)
     {
         // Basic case for first and second index just return static value
         if (n == 0) return 0;

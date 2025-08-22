@@ -20,12 +20,12 @@ public class Factorial
         foreach (var test in tests) test.RunTest();
     }
 
-    public static int Solve(int n)
+    private static int Solve(int n)
     {
         return FactorialRecursion(n, 1);
     }
 
-    public static int FactorialRecursion(int n, int acc)
+    private static int FactorialRecursion(int n, int acc)
     {
         if (n <= 1) return acc;
         return FactorialRecursion(n - 1, acc * n);
