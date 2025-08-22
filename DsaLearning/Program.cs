@@ -9,7 +9,7 @@ namespace DsaLearning
         {
             // Write the problem runner here
             // Example TwoSum.Run(); 
-            Factorial.Run();
+            Fibbonaci.Run();
         }
     }
 }
