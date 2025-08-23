@@ -9,7 +9,7 @@ namespace DsaLearning
         {
             // Write the problem runner here
             // Example TwoSum.Run(); 
-            Fibbonaci.Run();
+            ReverseString.Run();
         }
     }
 }
