@@ -8,7 +8,7 @@ public class IsPalindrome
     /// Problem:
     ///     Find if a string is palindrome
     ///
-    /// Tough Process:
+    /// Thought Process:
     ///     - A palindrome reads the same forward and backward.
     ///     - This means the first and last characters must match,
     ///       then the second and second-to-last, and so on.

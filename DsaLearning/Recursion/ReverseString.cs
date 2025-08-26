@@ -8,7 +8,7 @@ public static class ReverseString
     /// Problem:
     ///     Reverse the given string using recursion.
     ///
-    /// Taught Process:
+    /// Thought Process:
     ///     - A reverse string is basically the last character
     ///       followed by the reverse of the "rest" of the string.
     ///     - So I can peel off the last character at each recursion process,
