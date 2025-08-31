@@ -1,7 +1,7 @@
 namespace DsaLearning.LinkedList;
 
 /// <summary>
-/// Common ListNode Data Type Model
+/// ListNode Data Type Model
 /// </summary>
 public class ListNode
 {

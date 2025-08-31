@@ -1,5 +1,4 @@
-﻿using DsaLearning.Arrays;
-using DsaLearning.Recursion;
+﻿using DsaLearning.LinkedList;
 
 namespace DsaLearning
 {
@@ -9,7 +8,7 @@ namespace DsaLearning
         {
             // Write the problem runner here
             // Example TwoSum.Run(); 
-            ReverseString.Run();
+            ReverseLinkedList.Run();
         }
     }
 }

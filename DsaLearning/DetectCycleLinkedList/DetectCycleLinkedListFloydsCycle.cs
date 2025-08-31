@@ -1,9 +1,8 @@
-using System.Xml;
-using DsaLearning.Utils;
+using DsaLearning.LinkedList;
 
-namespace DsaLearning.LinkedList;
+namespace DsaLearning.DetectCycleLinkedList;
 
-public static class DetectCycleLinkedList
+public class DetectCycleLinkedListFloydsCycle
 {
     /// <summary>
     /// Problem:
@@ -17,6 +16,7 @@ public static class DetectCycleLinkedList
     ///       the difference of moving time.
     ///     - And the base case for the method to stop the loop is when the pointer
     ///       finds null reference.
+    ///     - And this method called Floyd's Cycle Detection algorithm
     ///
     /// Implementation:
     ///     - Create loop to move the pointer to each node
