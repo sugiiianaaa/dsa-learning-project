@@ -1,9 +1,11 @@
-using DsaLearning.Utils;
+namespace DsaLearning.Factorial;
 
-namespace DsaLearning.Recursion;
-
-public class Factorial
+// TODO SUGI: add documentation later
+public class FactorialRecursion
 {
+    /// <summary>
+    /// 
+    /// </summary>
     public static void Run()
     {
         Console.WriteLine("Running Factorial tests...");
@@ -21,12 +23,11 @@ public class Factorial
 
     private static int Solve(int n)
     {
-        return FactorialRecursion(n, 1);
+        return Recursion(n, 1);
     }
 
-    private static int FactorialRecursion(int n, int acc)
+    private static int Recursion(int n, int acc)
     {
-        if (n <= 1) return acc;
-        return FactorialRecursion(n - 1, acc * n);
+        return n <= 1 ? acc : Recursion(n - 1, acc * n);
     }
 }

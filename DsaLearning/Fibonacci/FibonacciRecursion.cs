@@ -1,8 +1,6 @@
-using DsaLearning.Utils;
+namespace DsaLearning.Fibonacci;
 
-namespace DsaLearning.Recursion;
-
-public class Fibbonaci
+public class FibonacciRecursion
 {
     /// <summary>
     /// Problem: Compute the n-th Fibonacci number.

@@ -1,8 +1,6 @@
-using DsaLearning.Utils;
+namespace DsaLearning.ReverseString;
 
-namespace DsaLearning.Recursion;
-
-public static class ReverseString
+public class ReverseStringRecursion
 {
     /// <summary>
     /// Problem:

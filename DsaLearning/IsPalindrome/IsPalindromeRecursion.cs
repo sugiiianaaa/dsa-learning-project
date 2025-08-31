@@ -1,8 +1,6 @@
-using DsaLearning.Utils;
+namespace DsaLearning.IsPalindrome;
 
-namespace DsaLearning.Recursion;
-
-public class IsPalindrome
+public class IsPalindromeRecursion
 {
     /// <summary>
     /// Problem:
@@ -52,4 +50,3 @@ public class IsPalindrome
         return PalindromeCheck(input, headIndex + 1, tailIndex - 1);
     }
 }
-

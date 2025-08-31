@@ -1,9 +1,24 @@
-using DsaLearning.Utils;
+using DsaLearning.LinkedList;
 
-namespace DsaLearning.LinkedList;
+namespace DsaLearning.ReverseLinkedList;
 
-public static class ReverseLinkedList
+public class ReverseLinkedListTwoPointer
 {
+    /// <summary>
+    /// Problem:
+    ///     Return reversed linked list
+    /// 
+    /// Though Process:
+    ///     - Linked List are a node that has value and pointer to the next node
+    ///     - So to reverse it, I think I only need to revert the pointer
+    ///     - Like a --/ b to a \-- b
+    ///
+    /// Implementation:
+    ///     - Create for loop to iterate each node on linked list
+    ///     - For each iteration, revert the pointer of the next node
+    ///       without losing the data of linked list which I could use
+    ///       temporary pointer to mark the node 
+    /// </summary>
     public static void Run()
     {
         Console.WriteLine("Running reverse linked list...");
